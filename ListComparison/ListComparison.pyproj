@@ -22,10 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="first_attempt.py">
+    <Compile Include="ListComparison.py" />
+    <Compile Include="test_ListComparison.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ListComparison.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
